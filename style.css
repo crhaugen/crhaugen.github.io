@@ -392,7 +392,7 @@
   }
 
   #portfolio section:hover .overlay .heading span {
-    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
     position: relative;
     top: -80px;
     left: -30px;
@@ -511,7 +511,7 @@
     }
 
     #portfolio section:hover .overlay .heading span {
-    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
     top: 70px;
     left: -240px;
     position: relative;
@@ -625,7 +625,7 @@
     position: relative;
     top: -0px;
     color: white;
-    -webkit-transition: none;
+    transition: none;
     }
 
     #portfolio .heading span {
